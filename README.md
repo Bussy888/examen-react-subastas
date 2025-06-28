@@ -4,21 +4,21 @@ Plataforma web de subastas en tiempo real, donde los usuarios pueden participar 
 
 Este proyecto está dividido en dos carpetas independientes:
 
-✅ `subasta-online` → Frontend de la plataforma
-✅ `sse-server` → Backend de eventos en tiempo real (SSE)
+-   ✅ `subasta-online` → Frontend de la plataforma
+-   ✅ `sse-server` → Backend de eventos en tiempo real (SSE)
 
 ---
 
 ## 🚀 Tecnologías Aplicadas
 
-✅ **React + Vite** → Desarrollo rápido y eficiente
-✅ **TypeScript** → Tipado estático robusto
-✅ **Material UI (MUI)** → Componentes visuales modernos
-✅ **Formik + Yup** → Formularios con validaciones
-✅ **Zustand** → Manejo de estado global simple
-✅ **i18n** → Internacionalización lista para múltiples idiomas
-✅ **JSON Server** → Simulación de API REST
-✅ **SSE (Server-Sent Events)** → Actualizaciones en tiempo real
+-   ✅ **React + Vite** → Desarrollo rápido y eficiente
+-   ✅ **TypeScript** → Tipado estático robusto
+-   ✅ **Material UI (MUI)** → Componentes visuales modernos
+-   ✅ **Formik + Yup** → Formularios con validaciones
+-   ✅ **Zustand** → Manejo de estado global simple
+-   ✅ **i18n** → Internacionalización lista para múltiples idiomas
+-   ✅ **JSON Server** → Simulación de API REST
+-   ✅ **SSE (Server-Sent Events)** → Actualizaciones en tiempo real
 
 ---
 
@@ -43,13 +43,13 @@ raíz-del-proyecto/
 
 ## 🛠️ Funcionalidades
 
-👥 Registro de usuarios con selección de avatar
-🛒 Gestión de productos y usuarios (solo para administradores)
-🎯 Subastas en tiempo real con SSE
-⚡ Ofertas y mensajes que se actualizan sin recargar la página
-📊 Historial personal de subastas ganadas
-🌍 Preparado para varios idiomas con i18n
-💻 Interfaz responsive y amigable
+-   👥 Registro de usuarios con selección de avatar
+-   🛒 Gestión de productos y usuarios (solo para administradores)
+-   🎯 Subastas en tiempo real con SSE
+-   ⚡ Ofertas y mensajes que se actualizan sin recargar la página
+-   📊 Historial personal de subastas ganadas
+-   🌍 Preparado para varios idiomas con i18n
+-   💻 Interfaz responsive y amigable
 
 ---
 
@@ -87,14 +87,12 @@ SSE disponible en: [http://localhost:3002](http://localhost:3002)
 ---
 
 
----
-
 ## 🎨 Pantallas Implementadas
 
-✅ Inicio de sesión y registro de usuarios
-✅ Panel de administración de productos y usuarios
-✅ Subastas en tiempo real con pujas visibles al instante
-✅ Historial de subastas ganadas por el usuario actual
-✅ Diseño responsive adaptable
+-   ✅ Inicio de sesión y registro de usuarios
+-   ✅ Panel de administración de productos y usuarios
+-   ✅ Subastas en tiempo real con pujas visibles al instante
+-   ✅ Historial de subastas ganadas por el usuario actual
+-   ✅ Diseño responsive adaptable
 
 ---
