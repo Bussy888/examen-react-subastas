@@ -1,0 +1,106 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "titulo": "Smartphone Galaxy",
+      "descripcion": "Teléfono de última generación.",
+      "imagen": "https://i.blogs.es/0e9c1d/galaxy-s20-hero/840_560.jpg",
+      "precioBase": 200,
+      "duracion": 60,
+      "fechaInicio": "2025-06-26T20:30:00Z",
+      "ofertas": [
+        {
+          "usuario": "Juan",
+          "monto": 250,
+          "hora": "2025-06-26T20:45:00Z"
+        }
+      ],
+      "mensajes": []
+    },
+    {
+      "id": "2",
+      "titulo": "Laptop UltraBook",
+      "descripcion": "Portátil ligera y potente con procesador i7.",
+      "imagen": "https://cdn.mos.cms.futurecdn.net/8BHQFHBNDTS7hwEbVbnMGZ.jpg",
+      "precioBase": 800,
+      "duracion": 90,
+      "fechaInicio": "2025-06-26T19:00:00Z",
+      "ofertas": [],
+      "mensajes": []
+    },
+    {
+      "id": "3",
+      "titulo": "Televisor 4K 55\"",
+      "descripcion": "Smart TV con resolución 4K UHD y HDR.",
+      "imagen": "https://sedinternationalb2c.vtexassets.com/arquivos/ids/160179-334-334?v=638590708990200000&width=334&height=334&aspect=true",
+      "precioBase": 400,
+      "duracion": 60,
+      "fechaInicio": "2025-06-26T21:30:00Z",
+      "ofertas": [],
+      "mensajes": []
+    },
+    {
+      "id": "803b",
+      "titulo": "Coca Cola",
+      "descripcion": "Coca Cola",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_O69GSi1a4PQaf6FBgI_k_y_LhSoEtxsPa5YFPmMVlZWJlAoEP4g36B-LgPtF6Ir0T-9-E8WGulz0M88_cO6xytfV9fDr6n1ndetbxP7s",
+      "precioBase": 10,
+      "duracion": 6000,
+      "fechaInicio": "2025-06-27T02:16:00.000Z",
+      "ofertas": [
+        {
+          "usuario": "Admin",
+          "monto": 11,
+          "hora": "2025-06-27T02:21:15.927Z"
+        },
+        {
+          "usuario": "Mateo",
+          "monto": 14,
+          "hora": "2025-06-27T02:23:00.815Z"
+        },
+        {
+          "usuario": "Mateo",
+          "monto": 15,
+          "hora": "2025-06-27T02:27:33.496Z"
+        }
+      ],
+      "mensajes": [
+        {
+          "usuario": "Admin",
+          "contenido": "13",
+          "hora": "2025-06-27T02:42:00.404Z"
+        },
+        {
+          "usuario": "Mateo",
+          "contenido": "12",
+          "hora": "2025-06-27T02:42:25.107Z"
+        }
+      ]
+    },
+    {
+      "id": "1890",
+      "titulo": "Cámara Réflex Canon",
+      "descripcion": "Cámara profesional para fotografía y video.",
+      "imagen": "https://www.blixt.tv/wp-content/uploads/2019/09/portada-las-mejores-camaras-reflex-2019.jpg",
+      "precioBase": 600,
+      "duracion": 600,
+      "fechaInicio": "2025-06-27T06:10:00.000Z",
+      "ofertas": [],
+      "mensajes": []
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1750986545719",
+      "nombre": "Admin",
+      "rol": "admin",
+      "avatar": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": "1750989181478",
+      "nombre": "Mateo",
+      "rol": "user",
+      "avatar": "https://i.pravatar.cc/150?img=1"
+    }
+  ]
+}
