@@ -34,10 +34,9 @@ const Register = () => {
     const usuarioNuevo = {
       ...values,
       avatar: selectedAvatar,
-      id: Date.now().toString()  // ID como string
+      id: Date.now().toString() 
     };
 
-    // Guardar en JSON Server
     await fetch("http://localhost:3001/usuarios", {
       method: "POST",
       headers: { "Content-Type": "application/json" },

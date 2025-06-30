@@ -66,7 +66,6 @@ const DetalleProducto = () => {
     <Box p={4}>
       <Card elevation={4}>
         <Grid container spacing={2}>
-          {/* Imagen y detalles del producto */}
           <Grid size={{ xs: 12, md: 5 }}>
             <CardMedia
               component="img"
@@ -95,7 +94,6 @@ const DetalleProducto = () => {
                 {t("duracion")}: {formatearTiempo(producto.duracion)}
               </Typography>
 
-              {/* Estado actual */}
               <Box mt={2}>
                 {estado === "proxima" && (
                   <Typography color="warning.main" variant="h6">
@@ -140,7 +138,6 @@ const DetalleProducto = () => {
         </Grid>
       </Card>
 
-      {/* Sección BidForm y Chat */}
       <Box mt={4}>
         <Paper elevation={3} sx={{ p: 3, mb: 3 }}>
           {estado === "activa" ? (

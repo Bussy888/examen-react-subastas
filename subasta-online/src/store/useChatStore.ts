@@ -7,7 +7,7 @@ interface Mensaje {
 }
 
 interface ChatStore {
-  mensajes: Record<string, Mensaje[]>; // clave: productoId
+  mensajes: Record<string, Mensaje[]>; 
   agregarMensaje: (productoId: string, msg: Mensaje) => void;
   limpiarMensajes: (productoId: string) => void;
 }

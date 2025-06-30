@@ -33,7 +33,6 @@ const App = () => {
             }
           />
           
-          {/* Rutas solo para admin */}
           <Route
             path="/admin"
             element={

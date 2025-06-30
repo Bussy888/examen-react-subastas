@@ -6,7 +6,7 @@ const ErrorBoundaryWrapper = ({ children }: { children: React.ReactNode }) => {
   const navigate = useNavigate();
 
   const handleReset = () => {
-    navigate("/"); // Redirige al home
+    navigate("/"); 
     window.location.reload();
   };
 

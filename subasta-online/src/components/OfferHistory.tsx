@@ -15,7 +15,7 @@ const OfferHistory = ({ producto }: Props) => {
     if (listaRef.current) {
       listaRef.current.scrollTop = listaRef.current.scrollHeight;
     }
-  }, [producto.ofertas]); // Se actualiza cuando llegan nuevas ofertas
+  }, [producto.ofertas]); 
 
   return (
     <Box sx={{ maxHeight: 200, overflowY: "auto", border: "1px solid #ddd", mt: 2, p: 1 }}>

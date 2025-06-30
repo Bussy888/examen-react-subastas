@@ -19,14 +19,12 @@ const Historial = () => {
   const ahora = new Date().getTime();
   const {t} = useTranslation();
 
-  // Solo productos finalizados
   const finalizadas = productos.filter((p) => {
     const inicio = new Date(p.fechaInicio).getTime();
     const fin = inicio + p.duracion * 1000;
     return ahora >= fin;
   });
 
-  // Solo subastas ganadas por el usuario actual
   const ganadasPorUsuario = finalizadas.filter((p) => {
     const ultimaOferta = p.ofertas?.at(-1);
     return ultimaOferta?.usuario === user?.nombre;
